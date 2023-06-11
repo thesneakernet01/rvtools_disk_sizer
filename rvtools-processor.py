@@ -1,7 +1,7 @@
 import pandas as pd
 import math
 
-excel_file = 'excel_file_name.xlsx'
+excel_file = input("Give me that path to your spreadsheet:")
 
 vpartition_spreadsheet = pd.read_excel(excel_file, sheet_name=4, index_col=0 )
 vdisk_spreadsheet = pd.read_excel(excel_file, sheet_name=3, index_col=0 )
